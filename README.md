@@ -2,7 +2,7 @@
 My 2023 Personal Portfolio project. Designed to showcase my work as a software developer and act as a personal website. Currently in development.
 
 # Link to Website
-The website can be viewed [here](https://benporayko.github.io/)
+The website can be visited [with this link.](https://benporayko.github.io/)
 # Goals For This Project
 My primary goal for this project is to create a stylish, responsive website to serve as a continually expanding hub for my programming work.
 I aim to expand upon the functionality of the website in the following ways:

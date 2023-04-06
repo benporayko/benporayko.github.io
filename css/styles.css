@@ -1,0 +1,203 @@
+/* .container-fluid {
+    background-image: url("../images/ricardo-gomez-angel-9AjwOAIdsII-unsplash.jpg");
+} */
+body {
+    background: linear-gradient(rgba(37, 42, 52, 0), rgba(37, 42, 52, 0)), url(../images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center top !important;
+
+    /* color:#252A34; */
+}
+.bg-image { 
+    /* background-size:cover;
+    background-position:center;
+    background-image: url("../images/laura-jaeger-KIsu5P5OJUY-unsplash.jpg"); 
+    background-repeat: no-repeat; */
+}
+.title-content {
+    height: 100vh;
+}
+.my-name-fade {
+    animation: myNameFadeIn ease 2s;
+}
+
+@keyframes myNameFadeIn {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #FF2E63;
+    font-size: calc(2rem + 3.3vw);
+    animation: fadeIn ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.tagline-fade {
+    padding-top: 1%;
+    animation: tagLineFadeIn ease 8s;
+}
+
+@keyframes tagLineFadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #EAEAEA;
+}
+h3 {
+    font-family: 'Abril Fatface', cursive;
+    color: #EAEAEA;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: calc(0.8rem + 1vw);
+    font-family: 'Lato', sans-serif;
+    color: #EAEAEA;
+}
+button {
+    font-family: 'Abril Fatface', cursive;
+}
+hr {
+    border-color: #ff2e62b9;
+    border-style: solid;
+    border-width: 15px 0 0 0;
+    /* padding-top: 15vh; */
+    /* padding-bottom: 2%; */
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+}
+
+/* Navbar */
+.navbar {
+    padding-bottom: 30vh;
+}
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Abril Fatface', cursive;
+    padding-left: 3%;
+    color: #EAEAEA;
+}
+.nav-link {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #EAEAEA;
+}
+.navbar-nav {
+    padding-right: 3%;
+}
+.nav-item {
+    padding-left: 18px;
+}
+
+/* Title Content */
+
+.title-col {
+    padding: 0 3% 0 3%;
+}
+.name-col {
+    /* padding-bottom: 5vh; */
+}
+.desc-col {
+    /* Fix this later, padding top causes overlapping on small viewports */
+    /* padding-top: 5rem; */
+    /* margin-bottom: 5vh; */
+    text-align: right;
+}
+.desc-text {
+    /* position: absolute;
+    padding-top: 5%;
+    bottom: 5%;
+    
+    padding-right: 3%; */
+}
+btn {
+    border-width: 10px;
+}
+.down {
+    text-align: center;
+    animation: bounce 2s infinite;
+}
+.down-icon {
+    font-size: 5rem;
+    color: #EAEAEA;
+    animation: tagLineFadeIn ease 8s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+/* Info Section */
+
+.section-pad {
+    padding: 0% 3% 0 3%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    /* background-color: #252A34; */
+
+}
+.alt-head {
+    text-align: right;
+}
+
+/* Skills Section */
+
+.inner-pad {
+    margin: 2% 3% 0 3%;
+}
+.skill-col {
+    text-align: center;
+}
+.skill-icon {
+    font-size: calc(2rem + 7vw);
+}
+
+/* Links Section */
+
+.link-icon {
+    font-size: calc(2rem + 4vw);
+}
+a {
+    text-decoration: none;
+}

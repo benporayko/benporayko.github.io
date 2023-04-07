@@ -15,3 +15,7 @@ I aim to expand upon the functionality of the website in the following ways:
 - [ ] Potentially add a blog with CRUD functionality
 - [ ] Re-Build Website using a Front-end framework (eg. React)
 - [ ] Add a mini-game to the website to showcase programming skills/act as a project in itself??
+
+# Known Issues
+
+- Website is not fully responsive on mobile, specifically in landscape mode

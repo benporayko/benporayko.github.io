@@ -8,6 +8,7 @@ body {
 }
 .title-content {
     height: 100vh;
+    position: relative;
 }
 .my-name-fade {
     animation: myNameFadeIn ease 2s;
@@ -123,13 +124,20 @@ btn {
     border-width: 10px;
 }
 .down {
+    position: absolute;
+    bottom: 2vh;
+    margin: 0 auto 0 auto;
+    width: 100%;
     text-align: center;
     animation: bounce 2s infinite;
 }
 .down-icon {
-    font-size: 5rem;
+    font-size: 3rem;
     color: #EAEAEA;
     animation: tagLineFadeIn ease 8s;
+}
+.down-invisible {
+    visibility: hidden;
 }
 
 @keyframes bounce {

@@ -7,3 +7,8 @@ window.onscroll = function() {
     document.body.style.background = "linear-gradient(rgba(37, 42, 52, " + opac + "), rgba(37, 42, 52, " + opac + ")), url(./images/adrien-olichon-RCAhiGJsUUE-unsplash.jpg) no-repeat";
   }
 }
+
+document.querySelector('#down-link').addEventListener('click', () => {
+  console.log("It was clicked");
+  document.querySelector('#down-link').classList.add('down-invisible');
+})

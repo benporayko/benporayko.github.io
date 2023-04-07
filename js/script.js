@@ -1,4 +1,11 @@
+// temporary fix, used to bring users to the top of the page on refresh
+// instead of jumping to the anchor. ideally, the page would be reloaded without the anchor ID on the end
+if (location.hash) {
+  setTimeout(function() {
 
+    window.scrollTo(0, 0);
+  }, 1);
+}
 // for background fade effect when scrolling through website
 let x = document.querySelector(".info-text").offsetTop;
 window.onscroll = function() {
@@ -8,7 +15,7 @@ window.onscroll = function() {
   }
 }
 
+// to make down arrow disappear once it has been clicked
 document.querySelector('#down-link').addEventListener('click', () => {
-  console.log("It was clicked");
   document.querySelector('#down-link').classList.add('down-invisible');
 })

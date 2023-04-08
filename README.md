@@ -19,3 +19,4 @@ I aim to expand upon the functionality of the website in the following ways:
 # Known Issues
 
 - Website is not fully responsive on mobile, specifically in landscape mode
+- The last anchor tag that was visited (eg. Info section, Contact Me) remains in the URL after refreshing the page. Used a temporary fix to return users to the top of the page, but the URL remains the same
